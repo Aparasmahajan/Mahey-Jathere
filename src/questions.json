@@ -1,0 +1,51 @@
+[{
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "answer": "Paris"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": "Mars"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "answer": "Pacific Ocean"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["William Shakespeare", "Charles Dickens", "Mark Twain", "Jane Austen"],
+        "answer": "William Shakespeare"
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "2"
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": ["Oxygen", "Gold", "Silver", "Osmium"],
+        "answer": "Oxygen"
+    },
+    {
+        "question": "In which year did the Titanic sink?",
+        "options": ["1905", "1912", "1918", "1923"],
+        "answer": "1912"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the largest mammal in the world?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Great White Shark"],
+        "answer": "Blue Whale"
+    },
+    {
+        "question": "Which country is the largest by land area?",
+        "options": ["United States", "Canada", "China", "Russia"],
+        "answer": "Russia"
+    }
+]

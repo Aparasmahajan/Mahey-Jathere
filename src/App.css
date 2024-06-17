@@ -1,0 +1,36 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.fullscreen-prompt {
+    text-align: center;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user-info input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.fullscreen-button {
+    padding: 1em 2em;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fullscreen-button:hover {
+    background-color: #0056b3;
+}
