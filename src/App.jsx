@@ -1,74 +1,37 @@
-import React, { useState, useEffect } from 'react';
-import Quiz from './Quiz';
-import './App.css';
+import styles from "./style";
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero,About, Gallery,Donation,Contact } from "./components";
 
-const App = () => {
-  const [isFullScreen, setIsFullScreen] = useState(false);
-  const [userInfo, setUserInfo] = useState(() => {
-    const saved = localStorage.getItem('userInfo');
-    return saved ? JSON.parse(saved) : { name: '', email: '' };
-  });
-
-  const checkFullScreen = () => {
-    if (!document.fullscreenElement) {
-      setIsFullScreen(false);
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener('fullscreenchange', checkFullScreen);
-    return () => {
-      document.removeEventListener('fullscreenchange', checkFullScreen);
-    };
-  }, []);
-
-  const enterFullScreen = () => {
-    document.documentElement.requestFullscreen().then(() => {
-      setIsFullScreen(true);
-    });
-  };
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setUserInfo((prevInfo) => ({ ...prevInfo, [name]: value }));
-  };
-
-  const handleStartQuiz = () => {
-    localStorage.setItem('userInfo', JSON.stringify(userInfo));
-    enterFullScreen();
-  };
-
-  return (
-    <div className="app">
-      {!isFullScreen ? (
-        <div className="fullscreen-prompt">
-          <div className="user-info">
-            <input
-              type="text"
-              name="name"
-              value={userInfo.name}
-              onChange={handleInputChange}
-              placeholder="Enter your name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              value={userInfo.email}
-              onChange={handleInputChange}
-              placeholder="Enter your email"
-              required
-            />
-            <button className="fullscreen-button" onClick={handleStartQuiz}>
-              Enter Full Screen to Start Quiz
-            </button>
-          </div>
-        </div>
-      ) : (
-        <Quiz />
-      )}
+const App = () => (
+  <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
     </div>
-  );
-};
+
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
+    </div>
+    
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Stats />
+        <About />
+        <Gallery />
+        <Donation />
+        <Contact/>
+        <Business />
+        <Billing />
+        <CardDeal />
+        <Testimonials />
+        <Clients />
+        <CTA />
+        <Footer />
+      </div>
+    </div>
+  </div>
+);
 
 export default App;
