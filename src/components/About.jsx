@@ -7,10 +7,10 @@ const About = () => {
     <div className={`${styles.paddingY} ${styles.flexCenter} flex-col`}>
       <div className="text-center">
         <h1 className="font-poppins font-semibold text-[52px] text-white leading-[75px]">
-          About <span className="text-gradient">shree ram</span>
+          About <span className="text-gradient">Mahey Jathere</span>
         </h1>
         <p className={`${styles.paragraph} max-w-[800px] mt-5`}>
-          Welcome to shree ram, a sacred place of peace, spirituality, and community. Nestled in the heart of [City/Location], our temple offers a serene environment for devotees and visitors to connect with the divine and find inner peace.
+          Welcome to Mahey Jathere, a sacred place of peace, spirituality, and community. Nestled in the heart of Hiatpur Jattan near Hyatpur, our temple offers a serene environment for devotees and visitors to connect with the divine and find inner peace.
         </p>
       </div>
 
@@ -37,7 +37,7 @@ const About = () => {
           Our Values
         </h2>
         <p className={`${styles.paragraph} mt-5`}>
-          At Shree Ram, we uphold the values of compassion, devotion, and community service. We believe in fostering a spirit of inclusivity and respect, welcoming individuals from all walks of life to experience the beauty of our traditions and the serenity of our sacred space.
+          At Mahey Jathere, we uphold the values of compassion, devotion, and community service. We believe in fostering a spirit of inclusivity and respect, welcoming individuals from all walks of life to experience the beauty of our traditions and the serenity of our sacred space.
         </p>
       </div>
     </div>

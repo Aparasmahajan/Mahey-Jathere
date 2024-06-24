@@ -84,11 +84,11 @@ export const stats = [{
         title: "Cultural Events",
         value: "50+",
     },
-    {
-        id: "stats-3",
-        title: "Yoga Sessions",
-        value: "200+",
-    },
+    // {
+    //     id: "stats-3",
+    //     title: "Yoga Sessions",
+    //     value: "200+",
+    // },
 ];
 
 export const footerLinks = [{

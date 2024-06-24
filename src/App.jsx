@@ -23,10 +23,10 @@ const App = () => (
         <Donation />
         <Contact/>
         <Business />
-        <Billing />
-        <CardDeal />
+        {/* <Billing /> */}
+        {/* <CardDeal /> */}
         <Testimonials />
-        <Clients />
+        {/* <Clients /> */}
         <CTA />
         <Footer />
       </div>
