@@ -3,13 +3,13 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from '../style';
-import {gallery1,gallery2,gallery3,temple,hero} from '../assets'
+import {gallery2,gallery3,temple} from '../assets'
 
 const galleryImages = [
-  { src: gallery1, alt: 'Temple event 1' },
+  { src: temple, alt: 'Temple event 1' },
   { src: gallery2, alt: 'Temple event 2' },
   { src: gallery3, alt: 'Temple event 3' },
-  { src: hero, alt: 'Temple event 4' },
+  { src: temple, alt: 'Temple event 4' },
   { src: temple, alt: 'Temple event 5' },
   { src: temple, alt: 'Temple event 6' },
   // Add more images as needed

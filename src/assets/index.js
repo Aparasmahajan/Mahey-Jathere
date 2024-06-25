@@ -23,10 +23,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import gallery1 from "./gallery1.png";
 import gallery2 from "./gallery2.png";
 import gallery3 from "./gallery3.png";
-import hero from "./hero.png";
 import temple from "./temple.jpg";
 
 export {
@@ -37,10 +35,8 @@ export {
     coinbase,
     dropbox,
     logo,
-    gallery1,
     gallery2,
     gallery3,
-    hero,
     temple,
     quotes,
     robot,
